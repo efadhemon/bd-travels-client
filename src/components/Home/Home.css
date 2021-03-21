@@ -26,6 +26,7 @@
     text-decoration: none;
     background: white;
     box-shadow: 0 0 20px rgb(48 46 77 / 15%);
+    margin-bottom: 50px;
     transition: 0.3s;
 }
 
@@ -55,10 +56,16 @@
     .transport-area{
         grid-template-columns: repeat(2, 1fr)
     }
+    .transport-container{
+        height: fit-content;
+    }
 }
 
 @media (max-width: 575px){
     .transport-area{
         grid-template-columns: repeat(1, 1fr)
+    }
+    .transport-container{
+        height: fit-content;
     }
 }

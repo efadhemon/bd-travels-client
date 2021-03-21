@@ -1,6 +1,9 @@
 
 .navbar{
     z-index: 10;
+    background-color: linen;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 .navbar-collapse{
     position: relative !important;
@@ -13,6 +16,8 @@
     color: black !important;
     font-weight: 600;
     margin: 0 20px;
+    transition: 0.3s;
+    border-radius: 5px;
 }
 .nav-link:hover{
     background-color: lightgray;

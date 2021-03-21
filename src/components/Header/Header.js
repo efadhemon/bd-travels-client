@@ -18,8 +18,8 @@ const Header = () => {
                         <div className="navbar-nav navbar-position">
                             <Link className="nav-link" aria-current="page" to="/home">Home</Link>
                             <Link className="nav-link" to="/destination">Destination</Link>
-                            <Link className="nav-link" to="/blog">Blog</Link>
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                            <Link className="nav-link" to="/">Blog</Link>
+                            <Link className="nav-link" to="/">Contact</Link>
                             {
                                 loggedInUser.name ?
                                     <b className="nav-link">{loggedInUser.name}</b>
