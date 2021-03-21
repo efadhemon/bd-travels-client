@@ -1,0 +1,64 @@
+
+
+.transport-container{
+    background-image: url('./../../images/home-bg.jpeg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 200px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.transport-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+
+}
+.transport-method {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    background: white;
+    box-shadow: 0 0 20px rgb(48 46 77 / 15%);
+    transition: 0.3s;
+}
+
+.transport-method img {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.transport-method p{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s;
+
+}
+.transport-method:hover{
+    text-decoration: none;
+    transform: scale(1.05);
+}
+.transport-method:hover p{
+    color: #0505c5;
+}
+
+/* responsive css */
+
+@media (max-width: 991px){
+    .transport-area{
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (max-width: 575px){
+    .transport-area{
+        grid-template-columns: repeat(1, 1fr)
+    }
+}

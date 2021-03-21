@@ -1,0 +1,31 @@
+
+.navbar{
+    z-index: 10;
+}
+.navbar-collapse{
+    position: relative !important;
+}
+.navbar-position{
+    position: absolute !important;
+    right: 0;
+}
+.nav-link {
+    color: black !important;
+    font-weight: 600;
+    margin: 0 20px;
+}
+.nav-link:hover{
+    background-color: lightgray;
+}
+.navbar-brand.logo{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+@media (max-width: 575px){
+    .navbar-brand.logo{
+        font-weight: 600;
+        font-size: 25px;
+        display: block !important;
+    }
+}

@@ -1,0 +1,36 @@
+
+
+.vehicle {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+img.vehicle_icon {
+    width: 60px;
+    margin-right: 10px;
+}
+
+h4.vehicle_type {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+img.peopleIcon {width: 30px;height: 30px;margin-top: 5px;}
+
+h4.sit {
+    margin-top: 12px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+h4.cost {
+    font-size: 18px;
+    margin-left: 60px;
+    margin-top: 11px;
+}
